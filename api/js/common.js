@@ -17,4 +17,3 @@ var getAccessToken = function(auth_url, auth_url) {
     });
   }).catch((e) => { console.error(e); throw new Error(e) })
 }
-
